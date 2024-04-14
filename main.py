@@ -10,7 +10,7 @@ class Hero:
     def attack(self, other):
         """Выполнение атаки на другого героя."""
         other.health -= self.attack_power
-        print(f"{self.name} атакует {other.name} и наносит {self.attack_power} урона.")
+        print(f"{self.name} атакует {other.name} и наносит {self.attack_power} пунктов урона.")
 
     def is_alive(self):
         """Проверка, жив ли герой."""
